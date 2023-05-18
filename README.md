@@ -63,3 +63,43 @@ match.end()<br>
  └MatchObject 객체에서 일치하는 문자열의 끝 인덱스를 반환합니다.<br><br>
 match.span()<br>
  └MatchObject 객체에서 일치하는 문자열의 (시작 인덱스, 끝 인덱스) 튜플을 반환합니다.<br><br>
+ 
+ <h3>Example</h3>
+<i><code>import re</code></i><hr>
+<b>문자열에서 패턴 찾기</b>
+<code>
+  pattern = r'apple'
+  text = 'I like apple.'
+  result = re.search(pattern, text)
+  if result:
+      print('찾은 패턴:', result.group())
+  else:
+      print('일치하는 패턴이 없습니다.')
+</code>
+
+<b>문자열에서 모든 패턴 찾기</b>
+<code>
+  pattern = r'apple'
+  text = 'I like apple. I have an apple.'
+  results = re.findall(pattern, text)
+  if results:
+      print('찾은 패턴:', results)
+  else:
+      print('일치하는 패턴이 없습니다.')
+</code>
+<b>패턴으로 문자열 대체하기</b>
+<code>
+  pattern = r'apple'
+  replace = 'orange'
+  text = 'I like apple. I have an apple.'
+  result = re.sub(pattern, replace, text)
+  print('바뀐 문자열:', result)
+</code>
+<b>패턴으로 문자열 분리하기</b>
+<code>
+  pattern = r'\s+'
+  text = 'I like apple. I have an apple.'
+  results = re.split(pattern, text)
+  print('분리된 문자열:', results)
+</code>
+

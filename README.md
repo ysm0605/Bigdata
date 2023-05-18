@@ -48,18 +48,18 @@ re.search(pattern, string)<br>
 re.match(pattern, string)<br>
  └문자열(string)의 처음부터 정규 표현식(pattern)과 일치하는지 검사합니다. 일치하는 부분이 없으면 None을 반환합니다.<br><br>
 re.findall(pattern, string)<br>
- └문자열(string)에서 정규 표현식(pattern)과 일치하는 모든 부분을 찾아서 리스트로 반환합니다. 일치하는 부분이 없으면 빈 리스트를 반환합니다.<br>
+ └문자열(string)에서 정규 표현식(pattern)과 일치하는 모든 부분을 찾아서 리스트로 반환합니다. 일치하는 부분이 없으면 빈 리스트를 반환합니다.<br><br>
 re.split(pattern, string)<br>
- └문자열(string)을 정규 표현식(pattern)에 따라 분할하여 리스트로 반환합니다.<br>
+ └문자열(string)을 정규 표현식(pattern)에 따라 분할하여 리스트로 반환합니다.<br><br>
 re.sub(pattern, repl, string)<br>
- └문자열(string)에서 정규 표현식(pattern)과 일치하는 모든 부분을 repl로 대체합니다. 결과 문자열을 반환합니다.<br>
+ └문자열(string)에서 정규 표현식(pattern)과 일치하는 모든 부분을 repl로 대체합니다. 결과 문자열을 반환합니다.<br><br>
 re.compile(pattern)<br>
- └정규 표현식(pattern)을 컴파일하여 패턴 객체를 반환합니다. 패턴 객체를 사용하여 문자열에서 정규 표현식을 검색할 수 있습니다. 이 방법을 사용하면 정규 표현식을 여러 번 사용해야 하는 경우에 성능을 높일 수 있습니다.<br>
+ └정규 표현식(pattern)을 컴파일하여 패턴 객체를 반환합니다. 패턴 객체를 사용하여 문자열에서 정규 표현식을 검색할 수 있습니다. 이 방법을 사용하면 정규 표현식을 여러 번 사용해야 하는 경우에 성능을 높일 수 있습니다.<br><br>
 match.group()<br>
- └MatchObject 객체에서 일치하는 문자열을 반환합니다.<br>
+ └MatchObject 객체에서 일치하는 문자열을 반환합니다.<br><br>
 match.start()<br>
- └MatchObject 객체에서 일치하는 문자열의 시작 인덱스를 반환합니다.<br>
+ └MatchObject 객체에서 일치하는 문자열의 시작 인덱스를 반환합니다.<br><br>
 match.end()<br>
- └MatchObject 객체에서 일치하는 문자열의 끝 인덱스를 반환합니다.<br>
+ └MatchObject 객체에서 일치하는 문자열의 끝 인덱스를 반환합니다.<br><br>
 match.span()<br>
- └MatchObject 객체에서 일치하는 문자열의 (시작 인덱스, 끝 인덱스) 튜플을 반환합니다.<br>
+ └MatchObject 객체에서 일치하는 문자열의 (시작 인덱스, 끝 인덱스) 튜플을 반환합니다.<br><br>

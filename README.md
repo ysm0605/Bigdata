@@ -41,9 +41,8 @@ A-Z	: 영어알파벳 (대문자)(-으로 범위 지정)<br>
 {n}	: n개<br>
 {Min,}	: 최소 Min개 이상<br>
 {Min, Max} :	최소 Min개 이상, 최대 Max개 이하<br>
-<br>
 
-<b>-정규 표현식 함수</b><br>
+<h3><b>-정규 표현식 함수</h3></b>
 re.search(pattern, string)<br>
  └문자열(string)에서 정규 표현식(pattern)과 일치하는 첫 번째 부분을 찾아서 MatchObject 객체를 반환합니다. 일치하는 부분이 없으면 None을 반환합니다.<br>
 re.match(pattern, string)<br>

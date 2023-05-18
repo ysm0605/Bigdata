@@ -44,9 +44,9 @@ A-Z	: 영어알파벳 (대문자)(-으로 범위 지정)<br>
 
 <h3><b>-정규 표현식 함수</h3></b>
 re.search(pattern, string)<br>
- └문자열(string)에서 정규 표현식(pattern)과 일치하는 첫 번째 부분을 찾아서 MatchObject 객체를 반환합니다. 일치하는 부분이 없으면 None을 반환합니다.<br>
+ └문자열(string)에서 정규 표현식(pattern)과 일치하는 첫 번째 부분을 찾아서 MatchObject 객체를 반환합니다. 일치하는 부분이 없으면 None을 반환합니다.<br><br>
 re.match(pattern, string)<br>
- └문자열(string)의 처음부터 정규 표현식(pattern)과 일치하는지 검사합니다. 일치하는 부분이 없으면 None을 반환합니다.<br>
+ └문자열(string)의 처음부터 정규 표현식(pattern)과 일치하는지 검사합니다. 일치하는 부분이 없으면 None을 반환합니다.<br><br>
 re.findall(pattern, string)<br>
  └문자열(string)에서 정규 표현식(pattern)과 일치하는 모든 부분을 찾아서 리스트로 반환합니다. 일치하는 부분이 없으면 빈 리스트를 반환합니다.<br>
 re.split(pattern, string)<br>
